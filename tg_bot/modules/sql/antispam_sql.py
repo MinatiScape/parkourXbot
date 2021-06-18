@@ -6,7 +6,7 @@ from tg_bot.modules.sql import BASE, SESSION
 
 
 class GloballyBannedUsers(BASE):
-    __tablename__ = "gbans"
+    __tablename__ = "gban"
     user_id = Column(Integer, primary_key=True)
     name = Column(UnicodeText, nullable=False)
     reason = Column(UnicodeText)
