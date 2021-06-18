@@ -1,7 +1,7 @@
 {
-  "name": "ParkourXbot",
-  "logo": "https://da.gd/N6dJoN",
-  "description": "ParkourXbot Simply Stable,Secure. #mariefork",
+  "name": "MinatiBot",
+  "logo": "",
+  "description": "A Powerful Telegram Bot, Owned By TechyMinati, Majorly Serving realme Community.",
   "keywords": [
     "telegram",
     "best",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/denomparkour/parkourXbot",
+  "repository": "https://github.com/MinatiScape/parkourXbot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
@@ -74,7 +74,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "9.5"
+        "version": "10"
       }
     }
   ]
